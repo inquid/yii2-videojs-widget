@@ -1,5 +1,5 @@
 {
-    "name": "wbraganca/yii2-videojs-widget",
+    "name": "inquid/yii2-videojs-widget",
     "description": "The yii2-videojs-widget is a Yii 2 wrapper for the [video.js](http://www.videojs.com/). A JavaScript and CSS library that makes it easier to work with and build on HTML5 video. This is also known as an HTML5 Video Player.",
     "keywords": [
         "yii2-videojs-widget",
@@ -22,6 +22,11 @@
             "name": "Wanderson Bragança",
             "email": "wanderson.wbc@gmail.com",
             "homepage": "http://wbraganca.com"
+        },
+        {
+            "name": "Luis Armando González",
+            "email": "contact@inquid.co",
+            "homepage": "https://inquid.co"
         }
     ],
     "require": {
