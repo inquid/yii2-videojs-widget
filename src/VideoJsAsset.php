@@ -14,14 +14,14 @@ namespace wbraganca\videojs;
  */
 class VideoJsAsset extends \yii\web\AssetBundle
 {
-    public $sourcePath = '@bower/video.js/dist';
+    public $sourcePath = '@bower/video.js/build';
 
     public $css = [
-        'video-js.min.css',
+        'http://vjs.zencdn.net/7.0/video-js.min.css',
     ];
 
     public $js = [
-        'video.min.js',
+        'http://vjs.zencdn.net/7.0/video.min.js',
     ];
 
     public $depends = [
