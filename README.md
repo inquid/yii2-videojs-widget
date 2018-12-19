@@ -15,13 +15,13 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-php composer.phar require --prefer-dist wbraganca/yii2-videojs-widget "~1.0"
+php composer.phar require --prefer-dist inquid/yii2-videojs-widget "dev-master"
 ```
 
 or add
 
 ```
-"wbraganca/yii2-videojs-widget": "~1.0"
+"inquid/yii2-videojs-widget": "dev-master"
 ```
 
 to the require section of your `composer.json` file.
@@ -34,7 +34,7 @@ Example 1 - HTML5
 
 ```php
 <?php
-    echo \wbraganca\videojs\VideoJsWidget::widget([
+    echo \inquid\videojs\VideoJsWidget::widget([
         'options' => [
             'class' => 'video-js vjs-default-skin vjs-big-play-centered',
             'poster' => "http://www.videojs.com/img/poster.jpg",
@@ -61,7 +61,7 @@ Example 2 - Real Time Messaging Protocol (RTMP)
 
 ```php
 <?php
-    echo \wbraganca\videojs\VideoJsWidget::widget([
+    echo \inquid\videojs\VideoJsWidget::widget([
         'options' => [
             'class' => 'video-js vjs-default-skin vjs-big-play-centered',
             'controls' => true,
